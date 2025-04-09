@@ -11,7 +11,7 @@ resource "azurerm_linux_virtual_machine" "ynov1-vm" {
 
   admin_ssh_key {
     username   = "adminuser"
-    # public_key = file("~/.ssh/id_rsa.pub")
+    # public_key = file("~/.ssh/id_rsa2.pub")
     public_key = var.ssh_key
   }
 
