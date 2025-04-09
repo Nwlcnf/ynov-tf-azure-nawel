@@ -1,5 +1,5 @@
 variable "prefix" {
-  default = "nawel" # A personnaliser avec votre nom
+  default = "ynov-web2" # A personnaliser avec votre nom
 }
 
 variable "environment" {
