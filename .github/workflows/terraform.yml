@@ -60,7 +60,7 @@ jobs:
       ARM_CLIENT_SECRET: ${{ secrets.ARM_CLIENT_SECRET }}
       ARM_SUBSCRIPTION_ID: ${{ secrets.ARM_SUBSCRIPTION_ID }}
       ARM_TENANT_ID: ${{ secrets.ARM_TENANT_ID }}
-      ARM_ID_RSA: ${{ secrets.ID_RSA }}
+      ARM_TF_VAR_ssh_key: ${{ secrets.ID_RSA }}
     runs-on: ubuntu-latest
     environment: production
 
